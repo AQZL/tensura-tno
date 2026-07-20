@@ -1,0 +1,31 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_elf.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_elf.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_elf.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "精通魔力气场",
+      "creator": "master",
+      "type": "tensura:magic_aura"
+    },
+    {
+      "name": "精通20种精神魔法",
+      "creator": "master_type_magic",
+      "type": "tensura:spiritual",
+      "amount": 20
+    }
+  ]
+}

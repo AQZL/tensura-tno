@@ -1,0 +1,14 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {"item": "tensura:magic_ore_shard"},
+  "input2": {"item": "tensura:medium_quality_magic_crystal_block"},
+  "input3": {"item": "tensura_tno:enchantment_stone"},
+  "inputAmount1": 3,
+  "inputAmount2": 5,
+  "inputAmount3": 1,
+  "output": {
+    "count": 2,
+    "id": "tensura_tno:enchantment_stone"
+  },
+  "schematics": []
+}

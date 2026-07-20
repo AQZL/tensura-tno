@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_blue_centipede",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_blue_centipede.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_blue_centipede.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_blue_centipede.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_blue_centipede.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.water_domination",
+      "creator": "master",
+      "type": "tensura:water_domination"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.cold_resistance",
+      "creator": "master",
+      "type": "tensura:cold_resistance"
+    }
+  ]
+}

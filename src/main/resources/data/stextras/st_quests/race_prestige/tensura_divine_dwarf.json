@@ -1,0 +1,35 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_dwarf.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_dwarf.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_dwarf.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "锻造绯绯色金刃",
+      "creator": "smith_tensura",
+      "type": [
+        "tensura:hihiirokane_katana",
+        "tensura:hihiirokane_great_sword",
+        "tensura:hihiirokane_kodachi",
+        "tensura:hihiirokane_long_sword",
+        "tensura:hihiirokane_odachi",
+        "tensura:hihiirokane_short_sword",
+        "tensura:hihiirokane_sword",
+        "tensura:hihiirokane_tachi"
+      ],
+      "amount": 1
+    }
+  ]
+}

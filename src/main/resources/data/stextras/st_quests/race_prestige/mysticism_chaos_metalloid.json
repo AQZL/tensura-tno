@@ -1,0 +1,38 @@
+{
+    "race_id":  "mysticism:chaos_metalloid",
+    "lore_message":  {
+                         "title":  "",
+                         "subtitle":  "",
+                         "chat":  "@lang:tensura_tno.race_prestige.mysticism_chaos_metalloid.lore.chat"
+                     },
+    "start_message":  {
+                          "title":  "",
+                          "subtitle":  "",
+                          "chat":  "@lang:tensura_tno.race_prestige.mysticism_chaos_metalloid.start.chat"
+                      },
+    "completed_message":  {
+                              "title":  "",
+                              "subtitle":  "",
+                              "chat":  "@lang:tensura_tno.race_prestige.mysticism_chaos_metalloid.complete.chat"
+                          },
+    "soul_grade":  5,
+    "quests":  [
+                   {
+                       "name":  "@lang:tensura_tno.race_prestige.mysticism_chaos_metalloid.quest.0",
+                       "creator":  "kill",
+                       "type":  "monster",
+                       "amount":  666
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.smith+#2+tensura_tno.unit.ingot+item.tensura.hihiirokane_ingot",
+                       "creator":  "smith_tensura",
+                       "type":  "tensura:hihiirokane_ingot",
+                       "amount":  2
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.physical_attack_resistance",
+                       "creator":  "master",
+                       "type":  "tensura:physical_attack_resistance"
+                   }
+               ]
+}

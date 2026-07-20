@@ -1,0 +1,43 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_vampire.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_vampire.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_vampire.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "击杀露米纳斯·瓦伦丁",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:shizu",
+      "amount": 1
+    },
+    {
+      "name": "小点心",
+      "creator": "consume",
+      "type": "tensura:zane_blood",
+      "amount": 1
+    },
+    {
+      "name": "精通魅惑",
+      "creator": "master",
+      "type": "tensura:charm"
+    },
+    {
+      "name": "精通血魔喷雾",
+      "creator": "master",
+      "type": "tensura:blood_mist"
+    }
+  ]
+}

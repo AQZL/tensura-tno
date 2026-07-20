@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_preying_mantis",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_preying_mantis.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_preying_mantis.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_preying_mantis.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_preying_mantis.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 250
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.physical_attack_resistance",
+      "creator": "master",
+      "type": "tensura:physical_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.pierce_resistance",
+      "creator": "master",
+      "type": "tensura:pierce_resistance"
+    }
+  ]
+}

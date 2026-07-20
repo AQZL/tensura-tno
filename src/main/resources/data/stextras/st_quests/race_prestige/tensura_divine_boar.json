@@ -1,0 +1,39 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_boar.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_boar.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_boar.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "击杀100只皇家猪头族",
+      "creator": "kill",
+      "type": "tensura:orc",
+      "tags": [
+        "Variant:4"
+      ],
+      "amount": 100
+    },
+    {
+      "name": "精通死亡进行曲",
+      "creator": "master",
+      "type": "tensura:death_march_dance"
+    },
+    {
+      "name": "精通饥饿感知",
+      "creator": "master",
+      "type": "tensura:starved"
+    }
+  ]
+}

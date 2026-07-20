@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_loxodrome_scorpion",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_loxodrome_scorpion.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_loxodrome_scorpion.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_loxodrome_scorpion.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_loxodrome_scorpion.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.poison_resistance",
+      "creator": "master",
+      "type": "tensura:poison_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.abnormal_condition_resistance",
+      "creator": "master",
+      "type": "tensura:abnormal_condition_resistance"
+    }
+  ]
+}

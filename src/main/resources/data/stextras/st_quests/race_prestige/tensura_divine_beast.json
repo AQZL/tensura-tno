@@ -1,0 +1,42 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_beast.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_beast.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_beast.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "击杀卡利翁",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura_neb:carrion",
+      "amount": 1
+    },
+    {
+      "name": "精通兽化变身",
+      "creator": "master",
+      "type": "tensura:beast_transformation"
+    },
+    {
+      "name": "精通狮吼拳",
+      "creator": "master",
+      "type": "tensura:roaring_lion_punch"
+    },
+    {
+      "name": "精通象群踩踏",
+      "creator": "master",
+      "type": "tensura:elephant_stampede"
+    }
+  ]
+}

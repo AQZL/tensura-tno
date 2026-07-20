@@ -1,0 +1,76 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_fighter.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_fighter.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_fighter.complete.chat"
+  },
+  "soul_grade": 5,
+  "quests": [
+    {
+      "name": "击杀异世界人弗肯",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:folgen",
+      "amount": 1
+    },
+    {
+      "name": "击杀异世界人水谷希星",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:kirara_mizutani",
+      "amount": 1
+    },
+    {
+      "name": "击杀异世界人橘恭弥",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:kyoya_tachibana",
+      "amount": 1
+    },
+    {
+      "name": "击杀异世界人古城舞衣",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:mai_furuki",
+      "amount": 1
+    },
+    {
+      "name": "击杀异世界人马克·罗兰",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:mark_lauren",
+      "amount": 1
+    },
+    {
+      "name": "击杀异世界人谷村真治",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:shinji_tanimura",
+      "amount": 1
+    },
+    {
+      "name": "击杀异世界人慎·流星",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:shin_ryusei",
+      "amount": 1
+    },
+    {
+      "name": "击杀异世界人田口省吾",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:shogo_taguchi",
+      "amount": 1
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:seraph",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_seraph.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_seraph.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_seraph.complete.chat"
+  },
+  "soul_grade": 5,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_seraph.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 666
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+mysticism.skill.light_domination",
+      "creator": "master",
+      "type": "mysticism:light_domination"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.darkness_attack_resistance",
+      "creator": "master",
+      "type": "tensura:darkness_attack_resistance"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_fox.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_fox.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_fox.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "精通分身术",
+      "creator": "master",
+      "type": "tensura:body_double"
+    },
+    {
+      "name": "精通火焰支配",
+      "creator": "master",
+      "type": "tensura:flame_domination"
+    },
+    {
+      "name": "精通魅惑",
+      "creator": "master",
+      "type": "tensura:charm"
+    }
+  ]
+}

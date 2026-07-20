@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "entries": [
+    "tensura_tno:replace_iceandfire_silver",
+    "tensura_tno:forbidden_tome_ruined_wizard_tower",
+    "tensura_tno:forbidden_tome_buried_wizard_tower",
+    "tensura_tno:forbidden_tome_frozen_wizard_tower",
+    "tensura_tno:forbidden_tome_burnt_wizard_tower",
+    "tensura_tno:forbidden_tome_rotted_wizard_tower"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:scorchtalon_wyvern",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_scorchtalon_wyvern.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_scorchtalon_wyvern.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_scorchtalon_wyvern.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_scorchtalon_wyvern.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.flame_attack_resistance",
+      "creator": "master",
+      "type": "tensura:flame_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.heat_resistance",
+      "creator": "master",
+      "type": "tensura:heat_resistance"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:heavenly_restriction",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_heavenly_restriction.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_heavenly_restriction.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_heavenly_restriction.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_heavenly_restriction.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 400
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.physical_attack_resistance",
+      "creator": "master",
+      "type": "tensura:physical_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.pain_resistance",
+      "creator": "master",
+      "type": "tensura:pain_resistance"
+    }
+  ]
+}

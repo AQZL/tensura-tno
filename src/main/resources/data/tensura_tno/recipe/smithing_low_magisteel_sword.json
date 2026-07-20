@@ -1,0 +1,11 @@
+{
+  "type": "tensura_tno:netherite_to_magisteel",
+  "template": {"item": "tensura:low_magisteel_ingot"},
+  "base": {"item": "minecraft:netherite_sword"},
+  "addition": {"item": "tensura_tno:enchantment_stone"},
+  "result": {"id": "tensura:low_magisteel_sword"},
+  "min_ep": 6000.0,
+  "max_ep": 18000.0,
+  "gain": 0.01,
+  "evolution": "tensura:high_magisteel_sword"
+}

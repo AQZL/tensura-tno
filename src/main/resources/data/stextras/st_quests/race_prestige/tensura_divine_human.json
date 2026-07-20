@@ -1,0 +1,32 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_human.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_human.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_human.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "讨伐魔物",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 1000
+    },
+    {
+      "name": "精通10种气斗法",
+      "creator": "master_type",
+      "type": "tensura:battlewill",
+      "amount": 10
+    }
+  ]
+}

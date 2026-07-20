@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tensura_tno:item/cooked_knight_spider_leg_meat"
+  }
+}

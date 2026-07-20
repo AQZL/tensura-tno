@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_yellow_centipede",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_yellow_centipede.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_yellow_centipede.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_yellow_centipede.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_yellow_centipede.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.paralysis_resistance",
+      "creator": "master",
+      "type": "tensura:paralysis_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.electricity_resistance",
+      "creator": "master",
+      "type": "tensura:electricity_resistance"
+    }
+  ]
+}

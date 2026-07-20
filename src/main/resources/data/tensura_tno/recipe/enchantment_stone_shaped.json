@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MEM",
+    "SSS"
+  ],
+  "key": {
+    "M": {"item": "tensura:medium_quality_magic_crystal_block"},
+    "E": {"item": "tensura_tno:enchantment_stone"},
+    "S": {"item": "tensura:magic_ore_shard"}
+  },
+  "result": {
+    "count": 2,
+    "id": "tensura_tno:enchantment_stone"
+  }
+}

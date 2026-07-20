@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "tensura_tno:block/tno_stove_front_lit",
+    "side": "tensura_tno:block/tno_stove_side",
+    "top": "tensura_tno:block/tno_stove_top_lit"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tensura:knight_spider_leg"
+    }
+  ],
+  "result": {
+    "id": "tensura_tno:knight_spider_leg_meat",
+    "count": 1
+  }
+}

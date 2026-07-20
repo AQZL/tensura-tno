@@ -1,0 +1,41 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_kobold.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_kobold.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_kobold.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "锻造卡律布狄斯鱞甲",
+      "creator": "craft",
+      "type": [
+        "tensura:charybdis_scalemail_leggings",
+        "tensura:charybdis_scalemail_helmet",
+        "tensura:charybdis_scalemail_chestplate",
+        "tensura:charybdis_scalemail_boots"
+      ],
+      "amount": 1
+    },
+    {
+      "name": "精通大地支配",
+      "creator": "master",
+      "type": "tensura:earth_domination"
+    },
+    {
+      "name": "精通泥矛",
+      "creator": "master",
+      "type": "tensura:mud_spears"
+    }
+  ]
+}

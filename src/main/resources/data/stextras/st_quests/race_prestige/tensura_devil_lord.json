@@ -1,0 +1,46 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_devil_lord.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_devil_lord.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_devil_lord.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "击杀大恶魔",
+      "creator": "kill",
+      "type": "tensura:arch_daemon",
+      "amount": 25
+    },
+    {
+      "name": "精通连锁爆炸",
+      "creator": "master",
+      "type": "tensura:chain_explosion"
+    },
+    {
+      "name": "精通雷暴雨",
+      "creator": "master",
+      "type": "tensura:thunder_rain"
+    },
+    {
+      "name": "精通破冰",
+      "creator": "master",
+      "type": "tensura:ice_breaker"
+    },
+    {
+      "name": "精通恶魔傀儡",
+      "creator": "master",
+      "type": "tensura:demon_marionette"
+    }
+  ]
+}

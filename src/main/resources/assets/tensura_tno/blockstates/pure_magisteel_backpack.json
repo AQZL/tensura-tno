@@ -1,0 +1,8 @@
+﻿{
+  "variants": {
+    "facing=east":  { "model": "tensura_tno:block/pure_magisteel_backpack", "y": 90 },
+    "facing=north": { "model": "tensura_tno:block/pure_magisteel_backpack" },
+    "facing=south": { "model": "tensura_tno:block/pure_magisteel_backpack", "y": 180 },
+    "facing=west":  { "model": "tensura_tno:block/pure_magisteel_backpack", "y": 270 }
+  }
+}

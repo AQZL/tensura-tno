@@ -1,0 +1,39 @@
+﻿{
+  "type": "kaleidoscope_cookery:pot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "tensura:hipokute_flower"
+    },
+    {
+      "item": "tensura:hipokute_flower"
+    },
+    {
+      "item": "tensura:hipokute_flower"
+    },
+    {
+      "item": "tensura:baffledil"
+    },
+    {
+      "item": "kaleidoscope_cookery:raw_cow_offal"
+    },
+    {
+      "item": "kaleidoscope_cookery:raw_lamb_chops"
+    },
+    {
+      "item": "tensura:cattledeer_beef"
+    },
+    {
+      "item": "kaleidoscope_cookery:raw_cut_small_meats"
+    },
+    {
+      "item": "tensura:full_potion"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:monster_meat_platter"
+  }
+}

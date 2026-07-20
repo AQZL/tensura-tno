@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "has_tno_stove": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tensura_tno:tno_stove"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.tensura_tno.tno_stove.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "tensura_tno:tno_stove"
+    },
+    "title": {
+      "translate": "advancements.tensura_tno.tno_stove.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_tno_stove"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

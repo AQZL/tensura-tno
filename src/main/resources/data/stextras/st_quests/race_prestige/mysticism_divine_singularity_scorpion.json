@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_singularity_scorpion",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_singularity_scorpion.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_singularity_scorpion.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_singularity_scorpion.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_singularity_scorpion.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 250
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.gravity_attack_resistance",
+      "creator": "master",
+      "type": "tensura:gravity_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.gravity_domination",
+      "creator": "master",
+      "type": "tensura:gravity_domination"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "race_id": "tensura_tno:heavenly_fox_sovereign",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.heavenly_fox_sovereign.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.heavenly_fox_sovereign.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.heavenly_fox_sovereign.complete.chat"
+  },
+  "soul_grade": 5,
+  "quests": [
+    {
+      "name": "召唤物击杀Boss",
+      "creator": "kill",
+      "type": "minecraft:any",
+      "amount": 1
+    },
+    {
+      "name": "食用大妖菜希汤",
+      "creator": "consume",
+      "type": "tensura_tno:storm_daemon_hipokute_soup",
+      "amount": 1
+    }
+  ]
+}

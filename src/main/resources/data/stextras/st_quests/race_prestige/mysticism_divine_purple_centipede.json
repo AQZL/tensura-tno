@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_purple_centipede",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_purple_centipede.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_purple_centipede.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_purple_centipede.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_purple_centipede.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.spatial_attack_resistance",
+      "creator": "master",
+      "type": "tensura:spatial_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.magic_resistance",
+      "creator": "master",
+      "type": "tensura:magic_resistance"
+    }
+  ]
+}

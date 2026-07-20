@@ -1,0 +1,38 @@
+{
+    "race_id":  "mysticism:divine_wolf",
+    "lore_message":  {
+                         "title":  "",
+                         "subtitle":  "",
+                         "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_wolf.lore.chat"
+                     },
+    "start_message":  {
+                          "title":  "",
+                          "subtitle":  "",
+                          "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_wolf.start.chat"
+                      },
+    "completed_message":  {
+                              "title":  "",
+                              "subtitle":  "",
+                              "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_wolf.complete.chat"
+                          },
+    "soul_grade":  4,
+    "quests":  [
+                   {
+                       "name":  "@lang:tensura_tno.race_prestige.mysticism_divine_wolf.quest.0",
+                       "creator":  "kill",
+                       "type":  "monster",
+                       "amount":  400
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.kill+#50+tensura_tno.unit.entity+entity.tensura.direwolf",
+                       "creator":  "kill",
+                       "type":  "tensura:direwolf",
+                       "amount":  50
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.thought_acceleration",
+                       "creator":  "master",
+                       "type":  "tensura:thought_acceleration"
+                   }
+               ]
+}

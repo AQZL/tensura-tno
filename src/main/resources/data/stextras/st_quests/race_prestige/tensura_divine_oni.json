@@ -1,0 +1,32 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_oni.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_oni.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_oni.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "唯一的灾厄就是你",
+      "creator": "kill",
+      "type": "tensura:orc_disaster",
+      "amount": 1
+    },
+    {
+      "name": "击杀1000只猪头族",
+      "creator": "kill",
+      "type": "tensura:orc",
+      "amount": 1000
+    }
+  ]
+}

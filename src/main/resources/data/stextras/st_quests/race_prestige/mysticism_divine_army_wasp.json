@@ -1,0 +1,37 @@
+{
+    "race_id":  "mysticism:divine_army_wasp",
+    "lore_message":  {
+                         "title":  "",
+                         "subtitle":  "",
+                         "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_army_wasp.lore.chat"
+                     },
+    "start_message":  {
+                          "title":  "",
+                          "subtitle":  "",
+                          "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_army_wasp.start.chat"
+                      },
+    "completed_message":  {
+                              "title":  "",
+                              "subtitle":  "",
+                              "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_army_wasp.complete.chat"
+                          },
+    "soul_grade":  3,
+    "quests":  [
+                   {
+                       "name":  "@lang:tensura_tno.action.kill+#100+tensura_tno.unit.entity+entity.tensura.army_wasp",
+                       "creator":  "kill",
+                       "type":  "tensura:army_wasp",
+                       "amount":  100
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.wind_domination",
+                       "creator":  "master",
+                       "type":  "tensura:wind_domination"
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.thought_acceleration",
+                       "creator":  "master",
+                       "type":  "tensura:thought_acceleration"
+                   }
+               ]
+}

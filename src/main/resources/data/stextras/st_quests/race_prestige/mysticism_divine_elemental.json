@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_elemental",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_elemental.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_elemental.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_elemental.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_elemental.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 300
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.flame_domination",
+      "creator": "master",
+      "type": "tensura:flame_domination"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.water_domination",
+      "creator": "master",
+      "type": "tensura:water_domination"
+    }
+  ]
+}

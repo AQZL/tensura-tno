@@ -1,0 +1,45 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_fish.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_fish.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_fish.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "我可不是希希",
+      "creator": "kill",
+      "type": "tensura:sissie",
+      "amount": 25
+    },
+    {
+      "name": "精通水支配",
+      "creator": "master",
+      "type": "tensura:water_domination"
+    },
+    {
+      "name": "击杀巨型鱼",
+      "creator": "kill",
+      "type": [
+        "tensura:giant_cod",
+        "tensura:giant_salmon"
+      ],
+      "amount": 1000
+    },
+    {
+      "name": "精通酸壳",
+      "creator": "master",
+      "type": "tensura:acid_shell"
+    }
+  ]
+}

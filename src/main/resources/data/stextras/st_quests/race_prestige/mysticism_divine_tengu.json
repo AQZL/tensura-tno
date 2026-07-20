@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_tengu",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_tengu.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_tengu.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_tengu.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_tengu.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 300
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.holy_attack_resistance",
+      "creator": "master",
+      "type": "tensura:holy_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.thought_acceleration",
+      "creator": "master",
+      "type": "tensura:thought_acceleration"
+    }
+  ]
+}

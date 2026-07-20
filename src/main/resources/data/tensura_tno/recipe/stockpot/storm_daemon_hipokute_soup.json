@@ -1,0 +1,33 @@
+﻿{
+  "type": "kaleidoscope_cookery:stockpot",
+  "carrier": {
+    "item": "minecraft:bowl"
+  },
+  "ingredients": [
+    {
+      "item": "tensura:hipokute_flower"
+    },
+    {
+      "item": "tensura_tno:cooked_charybdis_minced_meat"
+    },
+    {
+      "item": "tensura_tno:cooked_charybdis_minced_meat"
+    },
+    {
+      "item": "tensura_tno:cooked_charybdis_minced_meat"
+    },
+    {
+      "item": "kaleidoscope_cookery:lettuce"
+    },
+    {
+      "item": "kaleidoscope_cookery:lettuce"
+    },
+    {
+      "item": "tensura:chilled_slime"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:storm_daemon_hipokute_soup"
+  }
+}

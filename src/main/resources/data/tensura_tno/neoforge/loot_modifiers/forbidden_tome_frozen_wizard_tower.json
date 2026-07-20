@@ -1,0 +1,13 @@
+﻿{
+  "type": "tensura_tno:add_forbidden_tome",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "tensura:chests/frozen_wizard_tower"
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.025
+    }
+  ]
+}

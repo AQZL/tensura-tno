@@ -1,0 +1,38 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_dragon.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_dragon.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_dragon.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "天空的统治者",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura:charybdis",
+      "amount": 1
+    },
+    {
+      "name": "精通龙之形态",
+      "creator": "master",
+      "type": "tensura:dragon_mode"
+    },
+    {
+      "name": "精通独特技能",
+      "creator": "master_type",
+      "type": "tensura:unique",
+      "amount": 1
+    }
+  ]
+}

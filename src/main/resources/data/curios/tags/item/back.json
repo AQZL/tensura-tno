@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tensura_tno:low_magisteel_backpack",
+    "tensura_tno:high_magisteel_backpack",
+    "tensura_tno:pure_magisteel_backpack",
+    "tensura_tno:adamantite_backpack",
+    "tensura_tno:hihiirokane_backpack"
+  ]
+}

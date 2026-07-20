@@ -1,0 +1,21 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tensura_tno:adamantite_backpack"
+    },
+    "I": {
+      "item": "tensura:hihiirokane_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IBI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:hihiirokane_backpack"
+  }
+}

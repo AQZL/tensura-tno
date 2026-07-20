@@ -1,0 +1,37 @@
+{
+    "race_id":  "mysticism:divine_fire_ant",
+    "lore_message":  {
+                         "title":  "",
+                         "subtitle":  "",
+                         "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_fire_ant.lore.chat"
+                     },
+    "start_message":  {
+                          "title":  "",
+                          "subtitle":  "",
+                          "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_fire_ant.start.chat"
+                      },
+    "completed_message":  {
+                              "title":  "",
+                              "subtitle":  "",
+                              "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_fire_ant.complete.chat"
+                          },
+    "soul_grade":  3,
+    "quests":  [
+                   {
+                       "name":  "@lang:tensura_tno.action.kill+#80+tensura_tno.unit.entity+entity.tensura.giant_ant",
+                       "creator":  "kill",
+                       "type":  "tensura:giant_ant",
+                       "amount":  80
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.flame_attack_resistance",
+                       "creator":  "master",
+                       "type":  "tensura:flame_attack_resistance"
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.flame_domination",
+                       "creator":  "master",
+                       "type":  "tensura:flame_domination"
+                   }
+               ]
+}

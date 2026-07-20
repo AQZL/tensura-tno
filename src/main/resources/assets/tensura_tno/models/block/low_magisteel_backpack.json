@@ -1,0 +1,6 @@
+{
+  "parent": "sophisticatedbackpacks:block/backpack",
+  "textures": {
+    "clips": "tensura_tno:block/low_magisteel_clips"
+  }
+}

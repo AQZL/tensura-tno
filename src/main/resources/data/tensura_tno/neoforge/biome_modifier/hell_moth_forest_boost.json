@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#tensura_tno:hell_moth_boost_biomes",
+  "spawners": {
+    "type": "tensura:hell_moth",
+    "weight": 80,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

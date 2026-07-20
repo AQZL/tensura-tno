@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "tensura_tno:armorsaurus_minced_meat"
+  },
+  "result": {
+    "id": "tensura_tno:cooked_armorsaurus_minced_meat",
+    "count": 1
+  }
+}

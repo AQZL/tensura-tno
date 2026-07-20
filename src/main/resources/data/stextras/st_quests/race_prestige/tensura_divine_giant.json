@@ -1,0 +1,47 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_giant.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_giant.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_giant.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "没有巨人，只有我",
+      "creator": "kill",
+      "type": [
+        "tensura:giant_ant",
+        "tensura:giant_bat",
+        "tensura:giant_bear",
+        "tensura:giant_cod",
+        "tensura:giant_salmon"
+      ],
+      "amount": 500
+    },
+    {
+      "name": "精通巨型化",
+      "creator": "master",
+      "type": "tensura:giantification"
+    },
+    {
+      "name": "精通身体强化",
+      "creator": "master",
+      "type": "tensura:strengthen_body"
+    },
+    {
+      "name": "精通钢铁强化",
+      "creator": "master",
+      "type": "tensura:steel_strength"
+    }
+  ]
+}

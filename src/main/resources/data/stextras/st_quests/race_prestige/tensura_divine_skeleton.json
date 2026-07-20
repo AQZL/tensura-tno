@@ -1,0 +1,30 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_skeleton.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_skeleton.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_divine_skeleton.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "精通创造高等不死族",
+      "creator": "master",
+      "type": "tensura:create_greater_undead"
+    },
+    {
+      "name": "精通圣魔攻击抗性",
+      "creator": "master",
+      "type": "tensura:holy_attack_resistance"
+    }
+  ]
+}

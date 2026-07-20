@@ -1,0 +1,21 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:netherite_backpack"
+    },
+    "I": {
+      "item": "tensura:low_magisteel_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IBI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:low_magisteel_backpack"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_drone_beetle",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_drone_beetle.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_drone_beetle.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_drone_beetle.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_drone_beetle.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.electricity_resistance",
+      "creator": "master",
+      "type": "tensura:electricity_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.thought_acceleration",
+      "creator": "master",
+      "type": "tensura:thought_acceleration"
+    }
+  ]
+}

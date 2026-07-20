@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_inferius",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_inferius.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_inferius.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_inferius.complete.chat"
+  },
+  "soul_grade": 5,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_inferius.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 666
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.holy_attack_resistance",
+      "creator": "master",
+      "type": "tensura:holy_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+mysticism.skill.darkness_domination",
+      "creator": "master",
+      "type": "mysticism:darkness_domination"
+    }
+  ]
+}

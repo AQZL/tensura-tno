@@ -1,0 +1,9 @@
+{
+  "name": "Kill Hell Moth",
+  "creator": "kill",
+  "type": "tensura:hell_moth",
+  "amount": 17,
+  "rewards": {
+    "re": 176
+  }
+}

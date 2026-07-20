@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "tensura_tno:knight_spider_leg_meat"
+  },
+  "result": {
+    "id": "tensura_tno:cooked_knight_spider_leg_meat",
+    "count": 1
+  }
+}

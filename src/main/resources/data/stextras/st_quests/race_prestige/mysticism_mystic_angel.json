@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:mystic_angel",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_mystic_angel.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_mystic_angel.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_mystic_angel.complete.chat"
+  },
+  "soul_grade": 5,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_mystic_angel.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 500
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.holy_attack_resistance",
+      "creator": "master",
+      "type": "tensura:holy_attack_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.magic_resistance",
+      "creator": "master",
+      "type": "tensura:magic_resistance"
+    }
+  ]
+}

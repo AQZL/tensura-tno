@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:rimeblight_hydra",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_rimeblight_hydra.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_rimeblight_hydra.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_rimeblight_hydra.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_rimeblight_hydra.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 250
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.cold_resistance",
+      "creator": "master",
+      "type": "tensura:cold_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.poison_resistance",
+      "creator": "master",
+      "type": "tensura:poison_resistance"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "race_id":  "mysticism:divine_queen_wasp",
+    "lore_message":  {
+                         "title":  "",
+                         "subtitle":  "",
+                         "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_queen_wasp.lore.chat"
+                     },
+    "start_message":  {
+                          "title":  "",
+                          "subtitle":  "",
+                          "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_queen_wasp.start.chat"
+                      },
+    "completed_message":  {
+                              "title":  "",
+                              "subtitle":  "",
+                              "chat":  "@lang:tensura_tno.race_prestige.mysticism_divine_queen_wasp.complete.chat"
+                          },
+    "soul_grade":  3,
+    "quests":  [
+                   {
+                       "name":  "@lang:tensura_tno.action.kill+#80+tensura_tno.unit.entity+entity.tensura.army_wasp",
+                       "creator":  "kill",
+                       "type":  "tensura:army_wasp",
+                       "amount":  80
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.poison_resistance",
+                       "creator":  "master",
+                       "type":  "tensura:poison_resistance"
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.wind_domination",
+                       "creator":  "master",
+                       "type":  "tensura:wind_domination"
+                   }
+               ]
+}

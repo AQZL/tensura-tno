@@ -1,0 +1,11 @@
+{
+  "type": "kaleidoscope_cookery:steamer",
+  "ingredient": {
+    "item": "tensura:chilled_slime"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:slime_sauce_bun"
+  },
+  "cook_tick": 1200
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tensura:smithing_bench",
+  "input1": {"item": "tensura:magic_stone"},
+  "input2": {"item": "tensura:earth_elemental_shard"},
+  "input3": {"item": "tensura:fire_elemental_shard"},
+  "input4": {"item": "tensura:space_elemental_shard"},
+  "input5": {"item": "tensura:magic_ore_shard"},
+  "inputAmount1": 1,
+  "inputAmount2": 1,
+  "inputAmount3": 1,
+  "inputAmount4": 1,
+  "inputAmount5": 1,
+  "output": {
+    "count": 1,
+    "id": "tensura_tno:enchantment_stone"
+  },
+  "schematics": []
+}

@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tensura_tno.true_demon_lord_birth.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "count": 1,
+      "id": "tensura:high_quality_magic_crystal"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tensura_tno.true_demon_lord_birth.title"
+    }
+  },
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

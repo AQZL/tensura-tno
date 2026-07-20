@@ -1,0 +1,44 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_god_slime.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_god_slime.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.tensura_god_slime.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "击杀利姆露·特恩佩斯特",
+      "creator": "kill",
+      "stat_first": true,
+      "type": "tensura_neb:rimuru_ogre_fight",
+      "amount": 1
+    },
+    {
+      "name": "我想不出名字",
+      "creator": "name",
+      "type": "tensura:goblin",
+      "amount": 15
+    },
+    {
+      "name": "精通神之怒",
+      "creator": "master",
+      "type": "tensura:megiddo"
+    },
+    {
+      "name": "挖掘魔矿石",
+      "creator": "mine",
+      "type": ["tensura:magic_ore", "tensura:deepslate_magic_ore"],
+      "amount": 100
+    }
+  ]
+}

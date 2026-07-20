@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_majin_elemental",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_majin_elemental.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_majin_elemental.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_majin_elemental.complete.chat"
+  },
+  "soul_grade": 5,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_majin_elemental.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 500
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.weather_domination",
+      "creator": "master",
+      "type": "tensura:weather_domination"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.gravity_domination",
+      "creator": "master",
+      "type": "tensura:gravity_domination"
+    }
+  ]
+}

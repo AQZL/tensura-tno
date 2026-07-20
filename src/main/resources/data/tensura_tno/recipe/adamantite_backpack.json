@@ -1,0 +1,21 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "tensura_tno:pure_magisteel_backpack"
+    },
+    "I": {
+      "item": "tensura:adamantite_ingot"
+    }
+  },
+  "pattern": [
+    " I ",
+    "IBI",
+    " I "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:adamantite_backpack"
+  }
+}

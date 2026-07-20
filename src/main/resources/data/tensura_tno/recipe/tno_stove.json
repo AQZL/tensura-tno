@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "kaleidoscope_cookery:stove"
+    },
+    "I": {
+      "item": "tensura:high_quality_magic_crystal_block"
+    },
+    "S": {
+      "item": "tensura:magic_ore_block"
+    }
+  },
+  "pattern": [
+    "ISI",
+    "SFS",
+    "ISI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:tno_stove"
+  }
+}

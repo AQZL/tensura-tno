@@ -1,0 +1,40 @@
+﻿{
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_wisp.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_wisp.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.stextras_divine_wisp.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "精通风支配",
+      "creator": "master",
+      "type": "tensura:wind_domination"
+    },
+    {
+      "name": "精通水支配",
+      "creator": "master",
+      "type": "tensura:water_domination"
+    },
+    {
+      "name": "精通火焰支配",
+      "creator": "master",
+      "type": "tensura:flame_domination"
+    },
+    {
+      "name": "精通雷支配",
+      "creator": "master",
+      "type": "tensura:lightning_domination"
+    }
+  ]
+}

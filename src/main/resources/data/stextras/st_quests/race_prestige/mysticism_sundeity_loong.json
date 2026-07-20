@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:sundeity_loong",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_sundeity_loong.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_sundeity_loong.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_sundeity_loong.complete.chat"
+  },
+  "soul_grade": 5,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.action.kill+entity.tensura.charybdis",
+      "creator": "kill",
+      "type": "tensura:charybdis",
+      "amount": 1
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.weather_domination",
+      "creator": "master",
+      "type": "tensura:weather_domination"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.flame_domination",
+      "creator": "master",
+      "type": "tensura:flame_domination"
+    }
+  ]
+}

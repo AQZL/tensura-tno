@@ -1,0 +1,38 @@
+{
+  "race_id": "mysticism:frostwrought_leviathan",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_frostwrought_leviathan.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_frostwrought_leviathan.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_frostwrought_leviathan.complete.chat"
+  },
+  "soul_grade": 4,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_frostwrought_leviathan.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.kill+entity.tensura.charybdis",
+      "creator": "kill",
+      "type": "tensura:charybdis",
+      "amount": 1
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.cold_resistance",
+      "creator": "master",
+      "type": "tensura:cold_resistance"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "race_id": "mysticism:divine_lixivant_mantis",
+  "lore_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_lixivant_mantis.lore.chat"
+  },
+  "start_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_lixivant_mantis.start.chat"
+  },
+  "completed_message": {
+    "title": "",
+    "subtitle": "",
+    "chat": "@lang:tensura_tno.race_prestige.mysticism_divine_lixivant_mantis.complete.chat"
+  },
+  "soul_grade": 3,
+  "quests": [
+    {
+      "name": "@lang:tensura_tno.race_prestige.mysticism_divine_lixivant_mantis.quest.0",
+      "creator": "kill",
+      "type": "monster",
+      "amount": 200
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.corrosion_resistance",
+      "creator": "master",
+      "type": "tensura:corrosion_resistance"
+    },
+    {
+      "name": "@lang:tensura_tno.action.master+tensura.skill.poison_resistance",
+      "creator": "master",
+      "type": "tensura:poison_resistance"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "twilightforest:drying",
+  "filter_time": 9600,
+  "input": {
+    "item": "tensura:raw_sissie_meat"
+  },
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:cured_meat"
+  }
+}

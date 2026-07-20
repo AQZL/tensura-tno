@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "tensura:monster_leather_a"
+    },
+    "M": {
+      "item": "tensura:mithril_ingot"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "S": {
+      "item": "tensura:magic_stone"
+    },
+    "T": {
+      "item": "tensura:magic_tome"
+    }
+  },
+  "pattern": [
+    "PMP",
+    "LTS",
+    "PMP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tensura_tno:required_quest_reset_scroll"
+  }
+}

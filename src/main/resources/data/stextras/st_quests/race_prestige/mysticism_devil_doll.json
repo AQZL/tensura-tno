@@ -1,0 +1,38 @@
+{
+    "race_id":  "mysticism:devil_doll",
+    "lore_message":  {
+                         "title":  "",
+                         "subtitle":  "",
+                         "chat":  "@lang:tensura_tno.race_prestige.mysticism_devil_doll.lore.chat"
+                     },
+    "start_message":  {
+                          "title":  "",
+                          "subtitle":  "",
+                          "chat":  "@lang:tensura_tno.race_prestige.mysticism_devil_doll.start.chat"
+                      },
+    "completed_message":  {
+                              "title":  "",
+                              "subtitle":  "",
+                              "chat":  "@lang:tensura_tno.race_prestige.mysticism_devil_doll.complete.chat"
+                          },
+    "soul_grade":  4,
+    "quests":  [
+                   {
+                       "name":  "@lang:tensura_tno.race_prestige.mysticism_devil_doll.quest.0",
+                       "creator":  "kill",
+                       "type":  "monster",
+                       "amount":  300
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.smith+#4+tensura_tno.unit.ingot+item.tensura.adamantite_ingot",
+                       "creator":  "smith_tensura",
+                       "type":  "tensura:adamantite_ingot",
+                       "amount":  4
+                   },
+                   {
+                       "name":  "@lang:tensura_tno.action.master+tensura.skill.physical_attack_resistance",
+                       "creator":  "master",
+                       "type":  "tensura:physical_attack_resistance"
+                   }
+               ]
+}

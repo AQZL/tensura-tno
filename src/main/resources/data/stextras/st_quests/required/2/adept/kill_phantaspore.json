@@ -1,0 +1,9 @@
+{
+  "name": "Kill Phantaspore",
+  "creator": "kill",
+  "type": "tensura:phantaspore",
+  "amount": 2,
+  "rewards": {
+    "re": 149
+  }
+}
