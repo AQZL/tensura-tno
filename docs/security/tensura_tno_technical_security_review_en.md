@@ -8,6 +8,8 @@
 
 **Overall conclusion:** No malicious or kernel-compromise behavior was identified in the reviewed artifacts. Security hardening is still recommended.
 
+> **Maintainer status update:** Starting with `tensura_tno-1.0.4.6`, `tensura_patch_webview2.dll` has been removed from the distributed mod package. This report is retained for transparency and remains a historical, hash-bound review of the exact `1.0.4.5` artifacts identified below.
+
 ---
 
 ## 1. Executive Summary
@@ -480,6 +482,7 @@ This still cannot provide mathematical absolute security, but it significantly r
 - The installed WebView2 Runtime version and patch level depend on the user's computer.
 - NeoForge, Minecraft, Java, other mods, and operating-system dependencies were outside the complete-audit scope.
 - Remote pages, advertising scripts, and Tencent document content can change at any time.
+- Version `1.0.4.6` was not examined in this assessment. According to the maintainer, its distributed mod package no longer contains the reviewed DLL.
 - This report applies only to the exact hashes listed in Section 2.
 - Any change to either file invalidates the hash-bound conclusion and requires a new review.
 
@@ -487,7 +490,7 @@ This still cannot provide mathematical absolute security, but it significantly r
 
 ## 11. Formal Statement for External Review
 
-> On July 20, 2026, a static assessment was performed on `tensura_patch_webview2.dll` with SHA-256 `325F0118BD2011630E5864125373D91BABA3FBA49E483D77627DC125A5443715` and `tensura_tno-1.0.4.5.jar` with SHA-256 `B756D6789DB339DDAA386DCF14AE759F80DD37C31BEB0440ABDA0B1859D9762B`. The review included native decompilation, Java call-chain analysis, local antivirus scanning, public threat-intelligence checks, review of the available third-party sandbox record, and a point-in-time dynamic inspection of the two configured Wiki pages. No evidence of virus functionality, driver loading, kernel compromise, privilege escalation, process injection, operating-system command execution, or malicious persistence was identified in the reviewed files. The DLL received a 0/69 VirusTotal result, the international Wiki URL received 0/94, and the Tencent Docs domain received 0/91. A local Microsoft Defender custom scan using product version 4.18.26060.3008 and security-intelligence version 1.455.230.0 reported no threats in either file. The system does retain non-malicious security concerns, including DLL search-path hijacking, unrestricted URL configuration, remote webpage supply-chain exposure, advertising and tracking resources, and unsigned release artifacts. The supported conclusion is therefore that no malicious behavior was found in the reviewed fixed artifacts, not that the system can be guaranteed absolutely secure under all future conditions.
+> On July 20, 2026, a static assessment was performed on `tensura_patch_webview2.dll` with SHA-256 `325F0118BD2011630E5864125373D91BABA3FBA49E483D77627DC125A5443715` and `tensura_tno-1.0.4.5.jar` with SHA-256 `B756D6789DB339DDAA386DCF14AE759F80DD37C31BEB0440ABDA0B1859D9762B`. The review included native decompilation, Java call-chain analysis, local antivirus scanning, public threat-intelligence checks, review of the available third-party sandbox record, and a point-in-time dynamic inspection of the two configured Wiki pages. No evidence of virus functionality, driver loading, kernel compromise, privilege escalation, process injection, operating-system command execution, or malicious persistence was identified in the reviewed files. The DLL received a 0/69 VirusTotal result, the international Wiki URL received 0/94, and the Tencent Docs domain received 0/91. A local Microsoft Defender custom scan using product version 4.18.26060.3008 and security-intelligence version 1.455.230.0 reported no threats in either file. Starting with `tensura_tno-1.0.4.6`, the maintainer has removed the reviewed DLL from the distributed mod package; version `1.0.4.6` itself was not examined by this assessment. The reviewed `1.0.4.5` system does retain non-malicious security concerns, including DLL search-path hijacking, unrestricted URL configuration, remote webpage supply-chain exposure, advertising and tracking resources, and unsigned release artifacts. The supported conclusion is therefore that no malicious behavior was found in the reviewed fixed artifacts, not that the system can be guaranteed absolutely secure under all future conditions.
 
 ---
 
