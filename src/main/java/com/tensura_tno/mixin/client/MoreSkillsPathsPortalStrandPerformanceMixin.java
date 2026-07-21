@@ -1,5 +1,6 @@
 package com.tensura_tno.mixin.client;
 
+import com.tensura_tno.client.compat.MoreSkillsPathsPortalScanBatch;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.core.BlockPos;
@@ -11,9 +12,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.Constant;
-
-import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 /**
  * Spreads MoreSkills' Paths portal search over multiple render frames.
@@ -134,31 +132,15 @@ public abstract class MoreSkillsPathsPortalStrandPerformanceMixin {
         tensuraTno$scanIndex = end;
         BlockPos anchor = tensuraTno$scanCenter;
 
-        return () -> new Iterator<>() {
-            private final BlockPos.MutableBlockPos cursor = new BlockPos.MutableBlockPos();
-            private int index = start;
-
-            @Override
-            public boolean hasNext() {
-                return this.index < end;
-            }
-
-            @Override
-            public BlockPos next() {
-                if (!hasNext()) {
-                    throw new NoSuchElementException();
-                }
-
-                int positionIndex = this.index++;
-                int columnIndex = positionIndex / tensuraTno$verticalDiameter;
-                int yOffset = positionIndex % tensuraTno$verticalDiameter - tensuraTno$verticalRadius;
-                return this.cursor.set(
-                    anchor.getX() + tensuraTno$columnX[columnIndex],
-                    anchor.getY() + yOffset,
-                    anchor.getZ() + tensuraTno$columnZ[columnIndex]
-                );
-            }
-        };
+        return MoreSkillsPathsPortalScanBatch.iterable(
+                anchor,
+                tensuraTno$columnX,
+                tensuraTno$columnZ,
+                tensuraTno$verticalDiameter,
+                tensuraTno$verticalRadius,
+                start,
+                end
+        );
     }
 
     @Unique

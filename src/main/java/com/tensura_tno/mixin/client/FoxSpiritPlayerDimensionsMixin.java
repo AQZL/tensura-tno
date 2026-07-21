@@ -19,12 +19,16 @@ public abstract class FoxSpiritPlayerDimensionsMixin {
         if (!FoxSpiritPlayerFormHelper.shouldUseFoxForm(player)) return;
 
         EntityDimensions original = cir.getReturnValue();
-        EntityDimensions replacement = switch (pose) {
-            case STANDING -> resize(original, 0.70F, 1.00F, 0.80F);
-            case CROUCHING -> resize(original, 0.70F, 1.00F, 0.70F);
-            case SWIMMING, FALL_FLYING, SPIN_ATTACK -> resize(original, 0.70F, 1.00F, 0.45F);
-            default -> original;
-        };
+        EntityDimensions replacement;
+        if (pose == Pose.STANDING) {
+            replacement = resize(original, 0.70F, 1.00F, 0.80F);
+        } else if (pose == Pose.CROUCHING) {
+            replacement = resize(original, 0.70F, 1.00F, 0.70F);
+        } else if (pose == Pose.SWIMMING || pose == Pose.FALL_FLYING || pose == Pose.SPIN_ATTACK) {
+            replacement = resize(original, 0.70F, 1.00F, 0.45F);
+        } else {
+            replacement = original;
+        }
         cir.setReturnValue(replacement);
     }
 

@@ -8,6 +8,7 @@ import com.mojang.logging.LogUtils;
 import com.tensura_tno.ability.skill.SpiritSummonLimits;
 import com.tensura_tno.client.MagicOreSenseXray;
 import com.tensura_tno.command.TNOAdminCommands;
+import com.tensura_tno.compat.AncientArtifactsExperienceCompat;
 import com.tensura_tno.compat.CuriosSoulBoundDeathHandler;
 import com.tensura_tno.compat.jade.JadeCompatBootstrap;
 import com.tensura_tno.compat.TRUniqueMonstersCompat;
@@ -102,6 +103,7 @@ public class TensuraTNOMod {
 
         YigdCompat.register();
         CuriosSoulBoundDeathHandler.register();
+        AncientArtifactsExperienceCompat.register();
 
         // FTBQuests 自定义任务与奖励注册（仅当 FTBQuests 已安装时）
         if (ModList.get().isLoaded("ftbquests")) {

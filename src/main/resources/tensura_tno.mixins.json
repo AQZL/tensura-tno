@@ -90,7 +90,6 @@
     "STExtrasLoadingOverlayDisableMixin",
     "VanillaBackportPendingLayerTickMixin",
     "VanillaBackportSpecialMobRendererCompatMixin",
-    "TensuraBrowserButtonMixin",
     "MainScreenSlimeHumanFormCheckboxMixin",
     "SkillLockScreenLocalizationMixin",
     "SkillLockTooltipLocalizationMixin",
@@ -111,7 +110,18 @@
     "TwilightForestShieldOverlayMixin",
     "MoreSkillsGuiStringLocalizationMixin",
     "MoreSkillsBlackBloodFogOptimizationMixin",
-    "MoreSkillsPathsPortalStrandPerformanceMixin"
+    "MoreSkillsPathsPortalStrandPerformanceMixin",
+    "MoreSkillsElfariaVfxFrameMixin",
+    "MoreSkillsElfariaVfxIteratorMixin",
+    "MoreSkillsElfariaIceSheetOptimizationMixin",
+    "MoreSkillsAlbisVinaImpactOptimizationMixin",
+    "MoreSkillsAlbisVinaBeamOptimizationMixin",
+    "MoreSkillsAsmodayBlackHoleOptimizationMixin",
+    "MoreSkillsAsmodayBlackHoleFrustumCullingMixin",
+    "MoreSkillsAsmodayBlackHoleReflectionCacheMixin",
+    "MoreSkillsAsmodayHotPathCacheMixin",
+    "MoreSkillsAsmodaySpaceOptimizationMixin",
+    "MoreSkillsSatellaMiasmaSurfaceOptimizationMixin"
   ],
   "injectors": {
     "defaultRequire": 1
